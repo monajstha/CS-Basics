@@ -36,12 +36,11 @@ console.log("Contains Turtle: ", list.contains("turtle"));
 // Testing find function
 console.log("Index of dog", list.find("dog"));
 
-// Testing toString
-console.log(list.toString());
-
 // Testing inserAt function
 list.insertAt("giraffe", list.size());
-console.log(list.toString());
+
+// Testing toString
+console.log("List after inserting giraffe", list.toString());
 
 // Testing the removeAt function
 list.removeAt(0);
